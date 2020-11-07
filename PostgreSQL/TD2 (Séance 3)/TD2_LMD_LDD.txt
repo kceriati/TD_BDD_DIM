@@ -1,0 +1,80 @@
+Terme                       Types               Commentaire
+Personne                                        #Client
+Sommet                      Entité
+Client                      Entité
+Nom Sommet                  Propriété
+Altittude Sommet            Propriété
+Référence IGN               Propriété
+Titre carte                 Propriété
+Carte                       Entité
+Itinéraire                  Entité
+Titre Itinéraire            Propriété
+Code difficulté             Propriété
+Orientation itinéraire      Entité
+Dénivelé itinéranre         Propriété
+Temps de parcout            Propriété
+Sortie                      Entité
+Date de Sortie              Propriété
+Météo Sortie                Propriété
+Commentaire Sortie          Propriété
+Durée Itinéraire            Propriété
+Nom Client                  Propriété
+Prénom Client               Propriété
+Adresse Client              Propriété
+Tel fixe                    Propriété
+Mail Client                 Propriété
+Date naissance              Propriété
+Participant                 ?
+numero Sommet               Propriété
+numero Itinéraire           Propriété
+difficulté                  Entité
+
+
+///////////////////////     TABLES       //////////////////////////////////////
+
+Carte:
+        -Ref IGN
+        - Titre
+
+Sommet:
+        -Num de Sommet
+        -Nom Sommet
+        -Altittude
+
+Itinéraire:
+        -Num itinéraire
+        -Titre
+        -Dénivelé
+        -Temps de parcout
+
+Sortie:
+        -Num Sortie
+        -Date Sortie
+        -Météo
+        -Commentaire
+
+Difficulté:
+        -Code difficulté
+        -Libellé difficulté
+
+Orientation:
+        -Code Orientation
+        -Libellé Orientation
+
+Client:
+        -Num Client
+        -Nom
+        -Prénom
+        -Rue
+        -CP
+        -Ville
+        -Tel
+        -Mail
+        -Date naissance
+
+
+///////////////////////     Liens / Cardinalitées       //////////////////////////////////////
+
+
+
+
